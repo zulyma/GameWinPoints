@@ -4,7 +4,7 @@ Es un juego con una serie de preguntas que van aumentando de dificultad a medida
 ## Instalación
 Se necesita descargar el instalador MinGW para obtener la utilidad G++, permitir compilar el programa en C++ y generar el archivo ejecutable.
 Para su descarga:
-- Dirigirse a [MinGW](https://sourceforge.net/projects/mingw/files/) Pulsando sobre el vínculo `Download mingw-get-setup.exe`. Recordar la ruta de instalación.
+- Dirigirse a [MinGW](https://sourceforge.net/projects/mingw/files/) y pulsar sobre el vínculo `Download mingw-get-setup.exe`. Recordar la ruta de instalación.
 - Al finalizar la descarga, se busca y ejecuta el instalador y se pulsa *Continue*.
 - Cuando haya terminado la instalación, clic en *Continue* y aparecerán los componentes a instalar
 - Clic derecho al paquete **mingw32-gcc-g++** y **mingw32-base**, seleccionamos la opción *Mark for Installation*
