@@ -9,10 +9,10 @@ Para su descarga:
 - Cuando haya terminado la instalación, clic en *Continue* y aparecerán los componentes a instalar
 - Clic derecho al paquete **mingw32-gcc-g++** y **mingw32-base**, seleccionamos la opción *Mark for Installation*
 - Ve al menú *Installation -> Apply Changes* y luego clic en el botón *Apply* para empezar la instalación. Cuando finalice, clic en el botón *Close*
-- Por defecto MinGW se instala en la carpeta C:\MinGW. Para poder ejecutar el compilador G++ desde cualquier otra carpeta se necesita añadir la ruta de la carpeta C:\MinGW\bin\ a la variable de entorno **PATH**. Se abre el *Panel de control de Windows* y se pulsa sobre *Sistema*
+- Para ejecutar g++ desde cualquier directorio en la consola, se necesita agregar la ruta de la carpeta donde se encuentran los ejecutables de MinGW en la variable       de entorno **Path** del sistema, por defecto MinGW se instala en la carpeta C:\MinGW. Se abre el *Panel de control de Windows* y se pulsa sobre *Sistema*
 - Click en *Configuración avanzada del sistema -> variables de entorno*
 - Se selecciona **Path** en la parte *Variables del sistema* y se presiona el botón *Editar* -> Luego al botón *Nuevo*
-- Se escribe la ruta C:\MinGW\bin. Se pulsa el botón *Aceptar*
+- Se escribe la ruta de la carpeta donde se encuentran los ejecutables de MinGW -> C:\MinGW\bin. Se pulsa el botón *Aceptar*
 - Para saber si todo está correcto se ejecuta el *Símbolo del Sistema* y una vez abierto se escribe **g++ --version**. Debería desplegar la versión de g++.
 
 ## Ejecución
